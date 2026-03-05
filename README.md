@@ -1,5 +1,3 @@
-# bike-sharing-rebalancing
-
 # Demand-Aware Optimization for Dynamic Bike-Sharing Rebalancing
 
 ## Objective
