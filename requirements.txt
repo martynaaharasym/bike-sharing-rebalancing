@@ -4,5 +4,7 @@ scikit-learn
 xgboost
 lightgbm
 matplotlib
+seaborn
+folium
 meteostat
 tqdm
