@@ -8,3 +8,6 @@ seaborn
 folium
 meteostat
 tqdm
+gurobipy
+folium
+k_means_constrained
