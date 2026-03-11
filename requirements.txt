@@ -6,3 +6,6 @@ lightgbm
 matplotlib
 meteostat
 tqdm
+gurobipy
+folium
+k_means_constrained
