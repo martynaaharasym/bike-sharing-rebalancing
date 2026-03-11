@@ -1,0 +1,1893 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_078bc59c92c36b24680369ebb75edf22 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_078bc59c92c36b24680369ebb75edf22" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_078bc59c92c36b24680369ebb75edf22 = L.map(
+                "map_078bc59c92c36b24680369ebb75edf22",
+                {
+                    center: [41.88742118846453, -87.6582105237372],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_18a0aace60185121918030935bdfcb2d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_18a0aace60185121918030935bdfcb2d.addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            var poly_line_8f74779b5b48b369c4f628e132d58e53 = L.polyline(
+                [[41.88994543021417, -87.6804617], [41.89122, -87.67686], [41.907655, -87.672552], [41.907066, -87.667252], [41.916017, -87.668879], [41.919936, -87.64883], [41.929143, -87.649077], [41.932684, -87.63625], [41.922167, -87.638888], [41.91468, -87.64332], [41.906724, -87.63483], [41.894666, -87.638437], [41.89636246, -87.65406127], [41.877749, -87.649633], [41.877945, -87.662007], [41.88137, -87.67493], [41.88994543021417, -87.6804617]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            poly_line_8f74779b5b48b369c4f628e132d58e53.bindTooltip(
+                `<div>
+                     Truck 0 (cluster 0)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6afb7d23dc98c6eb8db4aa30156e44a6 = L.circleMarker(
+                [41.89122, -87.67686],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_6afb7d23dc98c6eb8db4aa30156e44a6.bindTooltip(
+                `<div>
+                     Truck 0:  Pick 13
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_83a8d53dc6e8537c4b904658a21ff8bb = L.circleMarker(
+                [41.907655, -87.672552],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_83a8d53dc6e8537c4b904658a21ff8bb.bindTooltip(
+                `<div>
+                     Truck 0: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8cf5d45a11ac5b446f0b4014526347fb = L.circleMarker(
+                [41.907655, -87.672552],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_8cf5d45a11ac5b446f0b4014526347fb.bindTooltip(
+                `<div>
+                     Truck 0: Drop 1 Pick 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_79fa518f6d39cf2813e44caf37981817 = L.circleMarker(
+                [41.907066, -87.667252],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_79fa518f6d39cf2813e44caf37981817.bindTooltip(
+                `<div>
+                     Truck 0: Drop 13
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_965e27824566828d3529f2a4f11265be = L.circleMarker(
+                [41.916017, -87.668879],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_965e27824566828d3529f2a4f11265be.bindTooltip(
+                `<div>
+                     Truck 0:  Pick 10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c1c7ca87a941c5d7810a3c73a34919f2 = L.circleMarker(
+                [41.919936, -87.64883],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_c1c7ca87a941c5d7810a3c73a34919f2.bindTooltip(
+                `<div>
+                     Truck 0: Drop 10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_45bc1232825d701482cd673addede0d5 = L.circleMarker(
+                [41.929143, -87.649077],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_45bc1232825d701482cd673addede0d5.bindTooltip(
+                `<div>
+                     Truck 0:  Pick 11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_557197a6bacddd50806081e391779f5b = L.circleMarker(
+                [41.932684, -87.63625],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_557197a6bacddd50806081e391779f5b.bindTooltip(
+                `<div>
+                     Truck 0: Drop 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a8e813c5b29b58b56b3ea7c60aaaf6b9 = L.circleMarker(
+                [41.922167, -87.638888],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_a8e813c5b29b58b56b3ea7c60aaaf6b9.bindTooltip(
+                `<div>
+                     Truck 0: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b1ce93ba32e179f6233e965e2fb729b7 = L.circleMarker(
+                [41.91468, -87.64332],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_b1ce93ba32e179f6233e965e2fb729b7.bindTooltip(
+                `<div>
+                     Truck 0: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1981773a2ef9c0a8e70b2ed5a16462e7 = L.circleMarker(
+                [41.906724, -87.63483],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_1981773a2ef9c0a8e70b2ed5a16462e7.bindTooltip(
+                `<div>
+                     Truck 0: Drop 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a25c488ca87be0ecc95a4e936a5b41a3 = L.circleMarker(
+                [41.894666, -87.638437],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_a25c488ca87be0ecc95a4e936a5b41a3.bindTooltip(
+                `<div>
+                     Truck 0:  Pick 15
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_773f3b8f28099ff4173c245c6c4fc3aa = L.circleMarker(
+                [41.89636246, -87.65406127],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_773f3b8f28099ff4173c245c6c4fc3aa.bindTooltip(
+                `<div>
+                     Truck 0: Drop 8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_29e0c7071367928eae04df73313c902e = L.circleMarker(
+                [41.877749, -87.649633],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_29e0c7071367928eae04df73313c902e.bindTooltip(
+                `<div>
+                     Truck 0: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_20369017c592a2f11e39c4ce6eb6279a = L.circleMarker(
+                [41.877945, -87.662007],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_20369017c592a2f11e39c4ce6eb6279a.bindTooltip(
+                `<div>
+                     Truck 0: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08b6c920dc5d90169892605b393a4366 = L.circleMarker(
+                [41.88137, -87.67493],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_08b6c920dc5d90169892605b393a4366.bindTooltip(
+                `<div>
+                     Truck 0: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6f7c564a00d17059d6313098e35215e3 = L.polyline(
+                [[41.88994543021417, -87.6804617], [41.758308, -87.606685], [41.756971, -87.624621], [41.743316, -87.622849], [41.743116, -87.6148], [41.746559, -87.586005], [41.743921, -87.575225], [41.75866967, -87.58688287], [41.76663824, -87.57645011], [41.788746, -87.601334], [41.79342946, -87.61585326], [41.88994543021417, -87.6804617]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            poly_line_6f7c564a00d17059d6313098e35215e3.bindTooltip(
+                `<div>
+                     Truck 1 (cluster 1)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a22fe6f1c493f57bee6ca2276b8f5a79 = L.circleMarker(
+                [41.758358, -87.606635],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_a22fe6f1c493f57bee6ca2276b8f5a79.bindTooltip(
+                `<div>
+                     Truck 1:  Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_93369b2d021bc5739055b737e4cf63ff = L.circleMarker(
+                [41.757021, -87.624571],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_93369b2d021bc5739055b737e4cf63ff.bindTooltip(
+                `<div>
+                     Truck 1: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e23b99cd0440877b6067dfc438ca56f = L.circleMarker(
+                [41.743366, -87.622799],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_4e23b99cd0440877b6067dfc438ca56f.bindTooltip(
+                `<div>
+                     Truck 1: Drop 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6cf06798d624319aff40b3a4d93711fb = L.circleMarker(
+                [41.743366, -87.622799],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_6cf06798d624319aff40b3a4d93711fb.bindTooltip(
+                `<div>
+                     Truck 1: Drop 0 Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d2731cf95f9cab1b80420bc3dc3f5473 = L.circleMarker(
+                [41.743166, -87.61475],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_d2731cf95f9cab1b80420bc3dc3f5473.bindTooltip(
+                `<div>
+                     Truck 1: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1ecabfab25a816b5a6fa463d529f076d = L.circleMarker(
+                [41.743166, -87.61475],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_1ecabfab25a816b5a6fa463d529f076d.bindTooltip(
+                `<div>
+                     Truck 1: Drop 1 Pick 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_432c58fd2d8d62df7259c2cb4186490a = L.circleMarker(
+                [41.746609, -87.585955],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_432c58fd2d8d62df7259c2cb4186490a.bindTooltip(
+                `<div>
+                     Truck 1:  Pick 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7af1e9eea76b2158500a7ee1ffcb19ac = L.circleMarker(
+                [41.743971, -87.575175],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_7af1e9eea76b2158500a7ee1ffcb19ac.bindTooltip(
+                `<div>
+                     Truck 1:  Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de3e1f9700628c87085e712e1a83e3ca = L.circleMarker(
+                [41.758719670000005, -87.58683287],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_de3e1f9700628c87085e712e1a83e3ca.bindTooltip(
+                `<div>
+                     Truck 1: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b5f08c0f277eba280d2a153cecb1d053 = L.circleMarker(
+                [41.76668824, -87.57640011],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_b5f08c0f277eba280d2a153cecb1d053.bindTooltip(
+                `<div>
+                     Truck 1:  Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0dda3b3bca85b16a4ba44badab9add51 = L.circleMarker(
+                [41.788796000000005, -87.60128399999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_0dda3b3bca85b16a4ba44badab9add51.bindTooltip(
+                `<div>
+                     Truck 1: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65542c6326a6149fea3ed1e37ca1f665 = L.circleMarker(
+                [41.788796000000005, -87.60128399999999],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_65542c6326a6149fea3ed1e37ca1f665.bindTooltip(
+                `<div>
+                     Truck 1: Drop 1 Pick 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_938fd4bdae04b65e9b493212d5d769f0 = L.circleMarker(
+                [41.79347946, -87.61580325999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_938fd4bdae04b65e9b493212d5d769f0.bindTooltip(
+                `<div>
+                     Truck 1: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_33af1afb681bfe85864af6c38efb04ea = L.polyline(
+                [[41.88994543021417, -87.6804617], [41.97977022, -87.67581473], [42.019159, -87.673573], [42.050491, -87.677821], [42.021019, -87.665086], [42.019537, -87.669563], [41.99477969, -87.66028453], [41.968812, -87.657659], [41.88994543021417, -87.6804617]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            poly_line_33af1afb681bfe85864af6c38efb04ea.bindTooltip(
+                `<div>
+                     Truck 2 (cluster 2)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3245ffa6527fd29a8c2a7173ba3813d1 = L.circleMarker(
+                [41.97987022, -87.67571473],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_3245ffa6527fd29a8c2a7173ba3813d1.bindTooltip(
+                `<div>
+                     Truck 2:  Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_016416f6fb01c3023ae777fcc6c42e2f = L.circleMarker(
+                [42.019259000000005, -87.673473],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_016416f6fb01c3023ae777fcc6c42e2f.bindTooltip(
+                `<div>
+                     Truck 2:  Pick 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4225f2ee5bd418c977c4d91e2e857cc8 = L.circleMarker(
+                [42.050591000000004, -87.67772099999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_4225f2ee5bd418c977c4d91e2e857cc8.bindTooltip(
+                `<div>
+                     Truck 2: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c34ad6e9d44d266ce5ae29365c5536de = L.circleMarker(
+                [42.021119000000006, -87.664986],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_c34ad6e9d44d266ce5ae29365c5536de.bindTooltip(
+                `<div>
+                     Truck 2: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8bc0ba552a08eb4daebbb8a47850a86e = L.circleMarker(
+                [42.019637, -87.669463],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_8bc0ba552a08eb4daebbb8a47850a86e.bindTooltip(
+                `<div>
+                     Truck 2:  Pick 9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_44670e00e553400ea201d39a813a35e3 = L.circleMarker(
+                [41.994879690000005, -87.66018453],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_44670e00e553400ea201d39a813a35e3.bindTooltip(
+                `<div>
+                     Truck 2:  Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f0615a286a33ddefbdbf88febda80355 = L.circleMarker(
+                [41.968912, -87.65755899999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_f0615a286a33ddefbdbf88febda80355.bindTooltip(
+                `<div>
+                     Truck 2: Drop 10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0ed41b44b17305f4ddb8d2f0e9be5043 = L.polyline(
+                [[41.88994543021417, -87.6804617], [41.87184, -87.64664], [41.87146652, -87.64094913], [41.867324, -87.648625], [41.85795, -87.640826], [41.856802, -87.633879], [41.856594, -87.627542], [41.856268, -87.613348], [41.8349, -87.61793], [41.830777, -87.632504], [41.838464, -87.635406], [41.84358, -87.645368], [41.858166, -87.656495], [41.855048, -87.675726], [41.865234, -87.666507], [41.88994543021417, -87.6804617]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            poly_line_0ed41b44b17305f4ddb8d2f0e9be5043.bindTooltip(
+                `<div>
+                     Truck 3 (cluster 3)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_017e75042d52c91d52f05a8e765d9749 = L.circleMarker(
+                [41.87199, -87.64649],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_017e75042d52c91d52f05a8e765d9749.bindTooltip(
+                `<div>
+                     Truck 3:  Pick 9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f3dcb9fb27f345c0b95f197d9c11201 = L.circleMarker(
+                [41.871616519999996, -87.64079912999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_0f3dcb9fb27f345c0b95f197d9c11201.bindTooltip(
+                `<div>
+                     Truck 3: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_acd5babd06075484c60dc953b45f74ee = L.circleMarker(
+                [41.871616519999996, -87.64079912999999],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_acd5babd06075484c60dc953b45f74ee.bindTooltip(
+                `<div>
+                     Truck 3: Drop 1 Pick 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_569d916ade08d6b267fbc3a1d294775a = L.circleMarker(
+                [41.867474, -87.64847499999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_569d916ade08d6b267fbc3a1d294775a.bindTooltip(
+                `<div>
+                     Truck 3: Drop 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1c5d022c9e63aa8b8dbb6f937032c69f = L.circleMarker(
+                [41.8581, -87.640676],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_1c5d022c9e63aa8b8dbb6f937032c69f.bindTooltip(
+                `<div>
+                     Truck 3: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c4d78d70e344071208676315937b207 = L.circleMarker(
+                [41.856952, -87.63372899999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_2c4d78d70e344071208676315937b207.bindTooltip(
+                `<div>
+                     Truck 3: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6251363342cfe11e85a755b11e8f5980 = L.circleMarker(
+                [41.856744, -87.627392],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_6251363342cfe11e85a755b11e8f5980.bindTooltip(
+                `<div>
+                     Truck 3:  Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de5e104803c945584e5a51d7a6b79b0d = L.circleMarker(
+                [41.856418, -87.613198],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_de5e104803c945584e5a51d7a6b79b0d.bindTooltip(
+                `<div>
+                     Truck 3: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9e75bbeec0e4bf8980520e52f31c3167 = L.circleMarker(
+                [41.835049999999995, -87.61778],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_9e75bbeec0e4bf8980520e52f31c3167.bindTooltip(
+                `<div>
+                     Truck 3: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1dc70bb26b6dc4891401542b61506c9e = L.circleMarker(
+                [41.830926999999996, -87.63235399999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_1dc70bb26b6dc4891401542b61506c9e.bindTooltip(
+                `<div>
+                     Truck 3: Drop 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e37b62521bc3aafa004cc316e8cd7602 = L.circleMarker(
+                [41.838614, -87.635256],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_e37b62521bc3aafa004cc316e8cd7602.bindTooltip(
+                `<div>
+                     Truck 3:  Pick 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef2af15c23b6e840f97953d8aa1a5c4f = L.circleMarker(
+                [41.84373, -87.645218],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_ef2af15c23b6e840f97953d8aa1a5c4f.bindTooltip(
+                `<div>
+                     Truck 3: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1be5df54b8978ffbcddaf6df34ff2db9 = L.circleMarker(
+                [41.858315999999995, -87.656345],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_1be5df54b8978ffbcddaf6df34ff2db9.bindTooltip(
+                `<div>
+                     Truck 3:  Pick 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1d3986b92d6bbef91a623f61ce2b0a3d = L.circleMarker(
+                [41.855197999999994, -87.67557599999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_1d3986b92d6bbef91a623f61ce2b0a3d.bindTooltip(
+                `<div>
+                     Truck 3: Drop 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f481ae57fc585324df26d4e3ea9eb6ac = L.circleMarker(
+                [41.865384, -87.66635699999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_f481ae57fc585324df26d4e3ea9eb6ac.bindTooltip(
+                `<div>
+                     Truck 3: Drop 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ed7288258b43442226a8326ea41fe9dc = L.polyline(
+                [[41.88994543021417, -87.6804617], [41.889727, -87.70103], [41.885502, -87.716866], [41.885928, -87.73541], [41.886841, -87.745261], [41.890249, -87.778281], [41.872987, -87.793945], [41.874325, -87.725704], [41.84447501, -87.70201301], [41.88994543021417, -87.6804617]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            poly_line_ed7288258b43442226a8326ea41fe9dc.bindTooltip(
+                `<div>
+                     Truck 4 (cluster 4)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_266010ce31df39217a4b1f11ba668f59 = L.circleMarker(
+                [41.889927, -87.70083],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_266010ce31df39217a4b1f11ba668f59.bindTooltip(
+                `<div>
+                     Truck 4:  Pick 6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6b7cebf1602dfe441846427da56c9919 = L.circleMarker(
+                [41.885702, -87.71666599999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_6b7cebf1602dfe441846427da56c9919.bindTooltip(
+                `<div>
+                     Truck 4: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b9f31b0ce75c2b46ae15c70b7f0324e2 = L.circleMarker(
+                [41.886128, -87.73521],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_b9f31b0ce75c2b46ae15c70b7f0324e2.bindTooltip(
+                `<div>
+                     Truck 4: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a797daed4414481c180b11ee2b55062e = L.circleMarker(
+                [41.887040999999996, -87.74506099999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_a797daed4414481c180b11ee2b55062e.bindTooltip(
+                `<div>
+                     Truck 4: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_072100d036aa3fb203cf00f0ed8c17cf = L.circleMarker(
+                [41.890449, -87.778081],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_072100d036aa3fb203cf00f0ed8c17cf.bindTooltip(
+                `<div>
+                     Truck 4: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b8a7455435a7edad3a0190e5b2b7dd8 = L.circleMarker(
+                [41.873187, -87.79374499999999],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_8b8a7455435a7edad3a0190e5b2b7dd8.bindTooltip(
+                `<div>
+                     Truck 4:  Pick 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f3e22c479d5f2d28556288d2dda09f9e = L.circleMarker(
+                [41.874525, -87.72550399999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_f3e22c479d5f2d28556288d2dda09f9e.bindTooltip(
+                `<div>
+                     Truck 4: Drop 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b32c49b591cccf789ea893f8bd8ec7ba = L.circleMarker(
+                [41.844675009999996, -87.70181301],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_b32c49b591cccf789ea893f8bd8ec7ba.bindTooltip(
+                `<div>
+                     Truck 4: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1757463883f01f8609a5bafaf8b79aa8 = L.polyline(
+                [[41.88994543021417, -87.6804617], [41.896544, -87.630931], [41.906866, -87.626217], [41.9023087, -87.62769053], [41.897448, -87.628722], [41.894448, -87.622663], [41.894503, -87.617854], [41.890573, -87.622072], [41.891466, -87.626761], [41.884241, -87.629634], [41.886024, -87.624117], [41.88634906, -87.61751655], [41.885041, -87.612794], [41.880958, -87.616743], [41.870769, -87.625734], [41.87817, -87.631985], [41.877245, -87.639366], [41.882091, -87.639833], [41.88994543021417, -87.6804617]],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            poly_line_1757463883f01f8609a5bafaf8b79aa8.bindTooltip(
+                `<div>
+                     Truck 5 (cluster 5)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a74b1987cf80a64e3022ce369b63e672 = L.circleMarker(
+                [41.896794, -87.63068100000001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_a74b1987cf80a64e3022ce369b63e672.bindTooltip(
+                `<div>
+                     Truck 5:  Pick 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9086f283e97bfc358acec47f70e96a7f = L.circleMarker(
+                [41.907116, -87.625967],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_9086f283e97bfc358acec47f70e96a7f.bindTooltip(
+                `<div>
+                     Truck 5:  Pick 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4970adcc7264ae17aea94355335b9ac = L.circleMarker(
+                [41.9025587, -87.62744053],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_c4970adcc7264ae17aea94355335b9ac.bindTooltip(
+                `<div>
+                     Truck 5: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dc270d736dfa721e4e88ab76e82c8d48 = L.circleMarker(
+                [41.9025587, -87.62744053],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_dc270d736dfa721e4e88ab76e82c8d48.bindTooltip(
+                `<div>
+                     Truck 5: Drop 1 Pick 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a090c620f4c014d8201739ec1ef2f670 = L.circleMarker(
+                [41.897698, -87.628472],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_a090c620f4c014d8201739ec1ef2f670.bindTooltip(
+                `<div>
+                     Truck 5: Drop 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e31c1b580ab79eebb5c88be12963eec0 = L.circleMarker(
+                [41.894698, -87.62241300000001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_e31c1b580ab79eebb5c88be12963eec0.bindTooltip(
+                `<div>
+                     Truck 5:  Pick 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4259c1b8fce6236c6b4fb8d767118eac = L.circleMarker(
+                [41.894753, -87.617604],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_4259c1b8fce6236c6b4fb8d767118eac.bindTooltip(
+                `<div>
+                     Truck 5: Drop 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_286fd79dbddf61a35d3ddd4f0d27d18d = L.circleMarker(
+                [41.890823000000005, -87.62182200000001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_286fd79dbddf61a35d3ddd4f0d27d18d.bindTooltip(
+                `<div>
+                     Truck 5:  Pick 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_195392f57ea8a92aaf3bd415a4745ac6 = L.circleMarker(
+                [41.891716, -87.62651100000001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_195392f57ea8a92aaf3bd415a4745ac6.bindTooltip(
+                `<div>
+                     Truck 5: Drop 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_80fc6cfefedeb11a392a5b28ae2e7474 = L.circleMarker(
+                [41.884491000000004, -87.629384],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_80fc6cfefedeb11a392a5b28ae2e7474.bindTooltip(
+                `<div>
+                     Truck 5:  Pick 6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_04d4cf13fd6488cd8c17ad26b5b95f69 = L.circleMarker(
+                [41.886274, -87.623867],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_04d4cf13fd6488cd8c17ad26b5b95f69.bindTooltip(
+                `<div>
+                     Truck 5: Drop 6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eba94cdcb4007d271c676d1d3ea80743 = L.circleMarker(
+                [41.88659906, -87.61726655000001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_eba94cdcb4007d271c676d1d3ea80743.bindTooltip(
+                `<div>
+                     Truck 5:  Pick 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_479b778af06877df2c8aa762eaa730a8 = L.circleMarker(
+                [41.885291, -87.612544],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_479b778af06877df2c8aa762eaa730a8.bindTooltip(
+                `<div>
+                     Truck 5: Drop 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9ff29a0a9e308497111203c1f35d38da = L.circleMarker(
+                [41.881208, -87.616493],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_9ff29a0a9e308497111203c1f35d38da.bindTooltip(
+                `<div>
+                     Truck 5:  Pick 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_07198b36dc769b4c25cb06015b930783 = L.circleMarker(
+                [41.871019000000004, -87.625484],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_07198b36dc769b4c25cb06015b930783.bindTooltip(
+                `<div>
+                     Truck 5: Drop 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_071f4aea7fee10879bda7177babab0ad = L.circleMarker(
+                [41.87842, -87.631735],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_071f4aea7fee10879bda7177babab0ad.bindTooltip(
+                `<div>
+                     Truck 5:  Pick 11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe73b9e9e2152d4196d5deacb0eaedd6 = L.circleMarker(
+                [41.877495, -87.639116],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_fe73b9e9e2152d4196d5deacb0eaedd6.bindTooltip(
+                `<div>
+                     Truck 5: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f923014ce114f39b095dbef28cd5d413 = L.circleMarker(
+                [41.882341000000004, -87.639583],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_f923014ce114f39b095dbef28cd5d413.bindTooltip(
+                `<div>
+                     Truck 5: Drop 8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e5d2b25956915159b7da9b14f230b67f = L.polyline(
+                [[41.88994543021417, -87.6804617], [41.83010465, -87.67029831], [41.82879202, -87.68060446], [41.800908, -87.674684], [41.803023, -87.664699], [41.799659, -87.657195], [41.794228, -87.655073], [41.79292965, -87.64499006], [41.787539, -87.644874], [41.78007963, -87.62974631], [41.794853, -87.618691], [41.80229465, -87.61805358], [41.80931771, -87.63344929], [41.80813391, -87.64561655], [41.823613, -87.650931], [41.88994543021417, -87.6804617]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            poly_line_e5d2b25956915159b7da9b14f230b67f.bindTooltip(
+                `<div>
+                     Truck 6 (cluster 6)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9d85781b36f8f1f5e52b2e2629ae27fa = L.circleMarker(
+                [41.830404650000006, -87.66999831000001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_9d85781b36f8f1f5e52b2e2629ae27fa.bindTooltip(
+                `<div>
+                     Truck 6:  Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_52fd15dd1d31806b08634a99c26d3e7a = L.circleMarker(
+                [41.829092020000004, -87.68030446],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_52fd15dd1d31806b08634a99c26d3e7a.bindTooltip(
+                `<div>
+                     Truck 6: Drop 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bde720f86ed28b342a7b7e729e8246f = L.circleMarker(
+                [41.829092020000004, -87.68030446],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_7bde720f86ed28b342a7b7e729e8246f.bindTooltip(
+                `<div>
+                     Truck 6: Drop 0 Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_98d75ef64a50a1ca505e4ff70cc18033 = L.circleMarker(
+                [41.801208, -87.674384],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_98d75ef64a50a1ca505e4ff70cc18033.bindTooltip(
+                `<div>
+                     Truck 6: Drop 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cc299ebac7b92affde07da6396bd3da0 = L.circleMarker(
+                [41.801208, -87.674384],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_cc299ebac7b92affde07da6396bd3da0.bindTooltip(
+                `<div>
+                     Truck 6: Drop 0 Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_754b65562ab9cdc231d78edd8f5a41ab = L.circleMarker(
+                [41.803323000000006, -87.664399],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_754b65562ab9cdc231d78edd8f5a41ab.bindTooltip(
+                `<div>
+                     Truck 6: Drop 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1ef07325731bc66e53b835c762faba20 = L.circleMarker(
+                [41.799959, -87.656895],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_1ef07325731bc66e53b835c762faba20.bindTooltip(
+                `<div>
+                     Truck 6:  Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_68e8fd2ca4d2ad7e271fea20c63dc720 = L.circleMarker(
+                [41.794528, -87.654773],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_68e8fd2ca4d2ad7e271fea20c63dc720.bindTooltip(
+                `<div>
+                     Truck 6: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7fd815e3a95db2f8bd2547608f308aca = L.circleMarker(
+                [41.79322965, -87.64469006],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_7fd815e3a95db2f8bd2547608f308aca.bindTooltip(
+                `<div>
+                     Truck 6:  Pick 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2afb3611bb2910e396a401bfc89e8f33 = L.circleMarker(
+                [41.787839000000005, -87.644574],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_2afb3611bb2910e396a401bfc89e8f33.bindTooltip(
+                `<div>
+                     Truck 6: Drop 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b8accd65e994a62330125e395985e89 = L.circleMarker(
+                [41.780379630000006, -87.62944631],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_8b8accd65e994a62330125e395985e89.bindTooltip(
+                `<div>
+                     Truck 6: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a56328ccfcd993757b035fddbf42cf7b = L.circleMarker(
+                [41.795153000000006, -87.618391],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_a56328ccfcd993757b035fddbf42cf7b.bindTooltip(
+                `<div>
+                     Truck 6:  Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7948df62df522e03eed420f0f20d8e6a = L.circleMarker(
+                [41.80259465, -87.61775358],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_7948df62df522e03eed420f0f20d8e6a.bindTooltip(
+                `<div>
+                     Truck 6: Drop 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ebd691cc9b9c4d62caba7ac1f07e36c3 = L.circleMarker(
+                [41.80259465, -87.61775358],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_ebd691cc9b9c4d62caba7ac1f07e36c3.bindTooltip(
+                `<div>
+                     Truck 6: Drop 0 Pick 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2faf22dfa4c6e5717fc152348c128ce9 = L.circleMarker(
+                [41.809617710000005, -87.63314929],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_2faf22dfa4c6e5717fc152348c128ce9.bindTooltip(
+                `<div>
+                     Truck 6: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_83df973b5597e615b6f411448c3ec3a8 = L.circleMarker(
+                [41.808433910000005, -87.64531655],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_83df973b5597e615b6f411448c3ec3a8.bindTooltip(
+                `<div>
+                     Truck 6:  Pick 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2074bac40e5a4c2337e38d6dfd98260b = L.circleMarker(
+                [41.823913000000005, -87.650631],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_2074bac40e5a4c2337e38d6dfd98260b.bindTooltip(
+                `<div>
+                     Truck 6: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f95895855fb67f17982eff73dd8bb9c4 = L.polyline(
+                [[41.88994543021417, -87.6804617], [41.922695, -87.697153], [41.953393, -87.732002], [41.96835449, -87.71183067], [41.97563273, -87.70141944], [41.96590014, -87.69363849], [41.968885, -87.684001], [41.96325, -87.679258], [41.94815, -87.66394], [41.949275, -87.646303], [41.92883, -87.668507], [41.88994543021417, -87.6804617]],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "brown", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            poly_line_f95895855fb67f17982eff73dd8bb9c4.bindTooltip(
+                `<div>
+                     Truck 7 (cluster 7)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03d11a4c577834ed88fba82bf2542ef5 = L.circleMarker(
+                [41.923044999999995, -87.696803],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_03d11a4c577834ed88fba82bf2542ef5.bindTooltip(
+                `<div>
+                     Truck 7:  Pick 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c8a62847fc056628f5f0579b33f46fa = L.circleMarker(
+                [41.953742999999996, -87.731652],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_2c8a62847fc056628f5f0579b33f46fa.bindTooltip(
+                `<div>
+                     Truck 7: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_91343a145928bce9140f97dd23cfe7a3 = L.circleMarker(
+                [41.96870449, -87.71148067],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_91343a145928bce9140f97dd23cfe7a3.bindTooltip(
+                `<div>
+                     Truck 7: Drop 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_add53ce1664ec889759f8f425262b6cb = L.circleMarker(
+                [41.97598273, -87.70106944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_add53ce1664ec889759f8f425262b6cb.bindTooltip(
+                `<div>
+                     Truck 7: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a439cc0e1a64edbf621abb3f19279bba = L.circleMarker(
+                [41.96625014, -87.69328849],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_a439cc0e1a64edbf621abb3f19279bba.bindTooltip(
+                `<div>
+                     Truck 7:  Pick 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_58a3571a366d9295bd2fa669478fc851 = L.circleMarker(
+                [41.969235, -87.683651],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_58a3571a366d9295bd2fa669478fc851.bindTooltip(
+                `<div>
+                     Truck 7: Drop 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f36dedbacd8bef6b0b503b89e92254f = L.circleMarker(
+                [41.9636, -87.678908],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_8f36dedbacd8bef6b0b503b89e92254f.bindTooltip(
+                `<div>
+                     Truck 7:  Pick 12
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dbacd9afb7a7c8b177205ceeeda28e70 = L.circleMarker(
+                [41.948499999999996, -87.66359],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_dbacd9afb7a7c8b177205ceeeda28e70.bindTooltip(
+                `<div>
+                     Truck 7: Drop 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d077edb85bf249a591f14ae8195a9583 = L.circleMarker(
+                [41.949625, -87.645953],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_d077edb85bf249a591f14ae8195a9583.bindTooltip(
+                `<div>
+                     Truck 7: Drop 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6c209859802c2ba7fea489837c145f40 = L.circleMarker(
+                [41.929179999999995, -87.66815700000001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_078bc59c92c36b24680369ebb75edf22);
+        
+    
+            circle_marker_6c209859802c2ba7fea489837c145f40.bindTooltip(
+                `<div>
+                     Truck 7: Drop 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
