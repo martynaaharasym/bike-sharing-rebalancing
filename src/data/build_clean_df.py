@@ -252,3 +252,18 @@ if __name__ == "__main__":
     )
 
     print(demand.head())
+
+
+
+def load_stations_data(datapath:str="../data/raw/Divvy_Stations_2017_Q3Q4 (2).csv"):
+    stations = pd.read_csv(datapath)
+    stations.drop(columns=["city","online_date","Unnamed: 7"], inplace=True)
+
+    warehouse_row = pd.DataFrame({
+        "id" : [0],
+        "name" : ["Divvy_Warehouse"],
+        "latitude" : [41.88994543021417] ,
+        "longitude" : [-87.6804617],   
+        "dpcapacity": [0]
+    })
+    return pd.concat([stations,warehouse_row], ignore_index=True)
